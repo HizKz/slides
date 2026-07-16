@@ -1,4 +1,11 @@
-node_modules
-package-lock.json
-package.json
+node_modules/
+.DS_Store
+
+# Generated slide files
+*.html
+*.pdf
 *.pptx
+
+# Preview and temporary output
+preview/
+tmp/

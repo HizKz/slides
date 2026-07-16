@@ -1,0 +1,33 @@
+Karabiner-Elements official documentation images
+Accessed: 2026-07-17
+
+1. Setup screen
+Source page:
+https://karabiner-elements.pqrs.org/docs/getting-started/installation/
+Image:
+https://karabiner-elements.pqrs.org/docs/getting-started/installation/images/setup-services%402x.png
+Local file:
+setup-services@2x.png
+
+2. EventViewer screen
+Source page:
+https://karabiner-elements.pqrs.org/docs/manual/operation/eventviewer/
+Image:
+https://karabiner-elements.pqrs.org/docs/manual/operation/eventviewer/images/karabiner-elements-eventviewer%402x.png
+Local file:
+eventviewer@2x.png
+
+3. Simple Modifications screen
+Source page:
+https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-simple-modifications/
+Image:
+https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-simple-modifications/images/karabiner-elements-simple-modifications%402x.png
+Local file:
+simple-modifications@2x.png
+
+Content references
+
+- https://karabiner-elements.pqrs.org/docs/json/location/
+- https://karabiner-elements.pqrs.org/docs/json/complex-modifications-manipulator-definition/conditions/variable/
+- /Users/apple/ghq/github.com/HizumeKazushi/dotfiles/karabiner/karabiner.json
+- /Users/apple/ghq/github.com/HizumeKazushi/dotfiles/karabiner/README.md
