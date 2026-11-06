@@ -11,15 +11,17 @@ Mac初心者〜開発者向けの、約20分のMarpスライドです。
 
 ## 生成
 
+Marp CLIを用意し、このディレクトリから実行します。PDFの生成には対応ブラウザーが必要です。
+
 ```sh
-npm install
-npm run build
+marp --html --allow-local-files karabiner-elements-getting-started.md -o karabiner-elements-getting-started.html
+marp --html --allow-local-files karabiner-elements-getting-started.md --pdf -o karabiner-elements-getting-started.pdf
 ```
 
 編集中のプレビュー:
 
 ```sh
-npm run preview
+marp --html --allow-local-files --server .
 ```
 
 ## 内容の参照元

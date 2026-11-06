@@ -1,0 +1,44 @@
+/* @theme mint */
+@import 'default';
+
+:root {
+  font-family: 'Zen Kaku Gothic New', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif;
+  color: #263b35;
+  font-size: 28px;
+}
+section {
+  background: #fff;
+  padding: 76px 104px 82px;
+  justify-content: flex-start;
+  line-height: 1.65;
+}
+h1, h2, h3 { color: #263b35; letter-spacing: .01em; line-height: 1.4; }
+h1 { margin: 0 0 1.1em; font-size: 1.32em; font-weight: 700; }
+h2 { margin: 0 0 .5em; font-size: 1em; }
+h3 { font-size: .85em; }
+p { margin: .5em 0; }
+strong { color: #287c69; }
+a { color: #287c69; }
+li { margin: .4em 0; }
+li::marker { color: #61a996; }
+blockquote { margin: 1em 0; padding: 0 0 0 1em; border-left: 3px solid #a5d6c7; color: #496159; }
+code { background: #f1f7f4; color: #305c50; }
+pre { background: #f5f8f6; padding: 18px 22px; }
+pre code { background: transparent; font-size: .8em; }
+table { font-size: .72em; }
+table th { background: #edf6f1; color: #263b35; }
+table th, table td { border: 1px solid #d4e4dc; padding: .4em .7em; }
+header, footer { color: #718a80; font-size: 15px; }
+header { top: 30px; left: 104px; }
+footer { bottom: 32px; left: 104px; }
+section::after { right: 104px; bottom: 32px; color: #718a80; font-size: 15px; }
+section.cover, section.divider, section.closing { justify-content: center; }
+section.cover { background: #e6f4eb; }
+section.divider, section.closing { background: #fff; }
+section.cover::after, section.divider::after, section.closing::after { display: none; }
+section.cover h1 { max-width: 1000px; margin: 0 0 .6em; font-size: 2em; }
+section.divider h1, section.closing h1 { max-width: 1000px; margin: 0 0 .6em; font-size: 1.7em; }
+section.cover p, section.divider p, section.closing p { color: #536d62; }
+.columns { display: flex; gap: 72px; align-items: flex-start; }
+.columns > div { flex: 1; min-width: 0; }
+.small { font-size: .72em; color: #667d73; }
